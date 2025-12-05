@@ -43,11 +43,11 @@ public:
     void printList()
     {
         for (int i = 0; i < adjList.size(); ++i) {
-            cout << i << ": ";
+            cout << i +1<< ": ";
             for (int j = 0; j < adjList[i].size(); ++j) {
-                cout << adjList[i][j] << ",";
+                cout << adjList[i][j] +1 << ",";
             }
-            cout << "NULL" << endl;
+            cout << endl;
         }
     }
 };
