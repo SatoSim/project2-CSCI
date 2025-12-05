@@ -4,17 +4,22 @@
 using namespace std;
 
 
-void test_helper( ){
+bool test_helper(AdjacencyList list, int answer){
     // input is an adjacency matrix and a expected answer 
 
     // run the adjacency matrix through the distances function
+    int dist = compute_distances(list);
 
     // compare output to expected answer 
 
     // if the same return true, otherwise false. 
 
-
-    
+    if(dist == answer){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
 void test_short_distance() {
@@ -63,9 +68,6 @@ void test_short_distance() {
     list.addEdge(14, 15);
 
 
-
-
-    
     list.printList();
 
     list.getN(0);
