@@ -1,5 +1,5 @@
 #include <iostream>
-//#include "bfs_compute_distances.h"
+#include "bfs_compute_distances.h"
 #include "adjacency_list.h"
 using namespace std;
 
