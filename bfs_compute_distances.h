@@ -4,12 +4,15 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include "adjacency_list.h"
+
 using namespace std;
 
 int compute_distances(AdjacencyList list){
 
     // compute distances using a BFS 
 
+    return 0;
     
 }
 #endif

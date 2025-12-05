@@ -35,7 +35,7 @@ public:
                 neigh[j] = adjList[v][j];
             }
 		for (int j = 0; j < adjList[v].size(); ++j) {
-                cout << neigh[j] << ", ";
+                cout << neigh[j] + 1 << ", ";
             }
 		return neigh;
 	}
