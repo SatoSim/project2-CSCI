@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/satoshisimental/Desktop/Fall/CSCI/project2/project2-CSCI/testing'
+relocations:     []
+...
